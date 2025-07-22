@@ -1,0 +1,5 @@
+/* O arquivo theme.css serve para colocar apenas as "variáveis" do css */
+
+:root {
+    --primary: pink;
+}
