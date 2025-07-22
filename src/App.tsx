@@ -3,7 +3,6 @@ import './styles/global.css'
 import './styles/theme.css'
 
 export function App() {
-    console.log('Oi')
     return (
         <>
             <Heading attr={123} attr2='String'>Hello World 1</Heading>
