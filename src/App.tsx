@@ -1,5 +1,6 @@
 import { Container } from './components/Container'
 import { CountDown } from './components/CountDown'
+import { DefaultInput } from './components/DefaultInput'
 import { Logo } from './components/Logo'
 import { Menu } from './components/Menu'
 
@@ -16,18 +17,17 @@ export function App() {
             <Container>
                 <Menu />
             </Container>
-  
+
             <Container>
                 <CountDown />
             </Container>
-           
+
             <Container>
                 <form className='form' action="">
                     <div className="formRow">
-                        <label htmlFor="meuInput">task</label>
-                        <input id='meuInput' type="text" />
+                        <DefaultInput title='TITULO' labelText='task' id='meuInput' type='text' placeholder='Digite algo...'/>
                     </div>
-       
+
                     <div className="formRow">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
